@@ -30,6 +30,6 @@
     background: grey;
 }
 
-/*.button:last-child {
-    border-radius: 10px 10px;
-}*/
+.button:last-child {
+    border-radius: 0 0 10px 10px;
+}

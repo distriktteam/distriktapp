@@ -1,13 +1,22 @@
 html, body {
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: 'Helvetica Neue', "SF Pro Display", arial, sans-serif;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+	html, body	{ background:  #333; color: white; }
+}
+  
+@media (prefers-color-scheme: light) {
+	html, body  { background: #FAFAFA; color: black; }
 }
 
 * {

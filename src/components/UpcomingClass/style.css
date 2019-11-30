@@ -1,0 +1,25 @@
+.upcoming {
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    flex: 0;
+    display: flex;
+    background: darkorange;
+    font-weight: bold;
+}
+
+.time {
+    flex: 0 0 auto;
+}
+
+.subject {
+    padding: 0px 10px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.room {
+    flex: 0 0 auto;
+}

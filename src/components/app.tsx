@@ -3,10 +3,9 @@ import { Route, Router, RouterOnChangeArgs } from "preact-router";
 
 import Home from "../routes/home";
 
-if ((module as any).hot) {
+if ((module as any).hot)
     // tslint:disable-next-line:no-var-requires
     require("preact/debug");
-}
 
 const App: preact.FunctionalComponent = () => {
     let currentUrl: string;

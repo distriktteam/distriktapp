@@ -48,6 +48,6 @@
             "options": "allow-destructuring"
         },
         "prefer-const-enum": { "severity": "warning" },
-        "curly": [true, "ignore-same-line"]
+        "curly": [true, "as-needed"]
     }
 }

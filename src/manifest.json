@@ -5,6 +5,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
+  "description": "Měj školu pod kontrolou.",
   "theme_color": "#673ab8",
   "icons": [
     {

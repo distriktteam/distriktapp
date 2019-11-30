@@ -1,14 +1,30 @@
+/*
+
+
+
+*/
+
+
 .home {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.dashboard {
 	font-family: "SF Pro Display", sans-serif;
-	padding: 20px;
+	flex: 1;
+	padding: 20px 20px ;
 	user-select: none;
 	-webkit-touch-callout: none;
+	overflow-y: auto;
 }
 
 /* Styly Nadpisů */
 h1 {
 	margin: 0;
-	font-size: 2rem;
+	padding-top: 40px;
+	font-size: 1.8rem;
 	color: #444;
 }
 
@@ -19,7 +35,4 @@ h2 {
 
 p {
 	margin: 10px 0 0;
-}
-
-.button {
 }

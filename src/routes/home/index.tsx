@@ -3,15 +3,25 @@ import { useEffect, useState } from "preact/hooks";
 import * as style from "./style.css";
 
 import { DateSortedGrades } from '../../components/Grades';
+import UpcomingClass from '../../components/UpcomingClass';
 import Warning from '../../components/Warning';
 
 interface Props {}
 const Home: preact.FunctionalComponent<Props> = props => {
     return (
         <div class={style.home}>
-            <Header />
-            <Warning />
-            <DateSortedGrades onlyNew={true} />
+            <div class={style.dashboard}>
+                <Header />
+                <Warning />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+                <DateSortedGrades onlyNew={true} />
+            </div>
+            <UpcomingClass />
         </div>
     );
 };

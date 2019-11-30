@@ -26,14 +26,14 @@ const Home: preact.FunctionalComponent<Props> = props => {
     );
 };
 
+const months = "ledna_února_března_dubna_května_června_července_srpna_září_října_listopadu_prosince".split("_");
 const Header: preact.FunctionalComponent<{}> = () => {
     const [time, setTime] = useState(new Date());
     useEffect(() => {
         const interval = setInterval(() => {
             const newTime = new Date();
-            if (time.getMinutes() !== newTime.getMinutes()) {
+            if (time.getMinutes() !== newTime.getMinutes())
                 setTime(newTime);
-            }
         }, 300);
 
         return () => {
@@ -47,11 +47,14 @@ const Header: preact.FunctionalComponent<{}> = () => {
     else if (time.getHours() >= 17) greeting = "Dobrý večer"; // 17:00 - 23:59
     else if (time.getHours() >= 13) greeting = "Dobré odpoledne"; // 13:00 - 16:59
 
+    const displayTime = `${time.getHours()}:${time.getMinutes() >= 10 ? time.getMinutes() : "0" + time.getMinutes()}`
+        + `, ${time.getDate()}. ${months[time.getMonth()]}`
+
     // Zatím jenom čísla, pak pomocí moment.js bude i jméno měsíce
     return (
         <Fragment>
             <h1>{greeting}, uživateli</h1>
-            <p>Je {time.getHours()}:{time.getMinutes()}, {time.getDate()}. {time.getMonth()}.</p>
+            <p>Je {displayTime}.</p>
         </Fragment>
     );
 }

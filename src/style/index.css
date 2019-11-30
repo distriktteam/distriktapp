@@ -6,9 +6,6 @@ html, body {
 	background: #FAFAFA;
 	font-family: 'Helvetica Neue', "SF Pro Display", arial, sans-serif;
 	font-weight: 400;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +18,11 @@ html, body {
 
 * {
 	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility !important;
+	-webkit-tap-highlight-color: transparent;
+	overflow: hidden;
 }
 
 #app {

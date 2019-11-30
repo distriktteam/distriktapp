@@ -1,0 +1,25 @@
+.home {
+	font-family: "SF Pro Display", sans-serif;
+	padding: 20px;
+	user-select: none;
+	-webkit-touch-callout: none;
+}
+
+/* Styly Nadpisů */
+h1 {
+	margin: 0;
+	font-size: 2rem;
+	color: #444;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
+p {
+	margin: 10px 0 0;
+}
+
+.button {
+}

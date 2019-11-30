@@ -1,0 +1,35 @@
+.warning {
+    margin: 20px 0 0 0;
+    color: white;
+    background: #FF5656;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px 0 rgba(255, 0, 43, 0.39);
+}
+
+.container {
+    padding: 10px 20px 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    padding: 12px 20px 12px;
+    border-top: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: hand;
+}
+
+.button:active {
+    background: grey;
+}
+
+/*.button:last-child {
+    border-radius: 10px 10px;
+}*/

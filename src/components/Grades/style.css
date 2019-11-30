@@ -1,0 +1,20 @@
+.grades {
+    margin-top: 20px;
+}
+
+.gradeBox {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.details {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grade {
+    color: red;
+}

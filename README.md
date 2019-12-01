@@ -1,11 +1,13 @@
 
 <div align="center">
 	<br>
+	<br>
 	<p align="center">
 		<a href="https://distriktapp.cz">
-		  <img src="https://github.com/distriktteam/assets/blob/master/logo/distrikt-dark.svg" alt="Distrikt" width="400">
+		  <img src="https://github.com/distriktteam/assets/blob/master/logo/distrikt-logo.svg" alt="Distrikt" width="450">
 		</a>
 	</p>
+	<br>
 	<h3 align="center">Mějte školu pod kontrolou.</h3>
 	<br>
   <div align="center">

@@ -31,8 +31,9 @@
     Distrikt is yours.
   </h1>
   <p>
-    Distrikt is fully community powered, so if you've got any new ideas that we could implement, let us know on our official Discord server!
+    Distrikt is fully community powered, <br>so if you've got any new ideas that we could implement, <br>let us know on our official Discord server!
   </p>
+  <a href="https://discord.gg/sSa7bX5">
 </div>
 
 ## CLI Commands

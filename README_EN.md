@@ -1,40 +1,47 @@
-
 <div align="center">
-	<br>
-	<br>
-	<p align="center">
-		<a href="https://distriktapp.cz">
-		  <img src="https://github.com/distriktteam/assets/blob/master/logo/distrikt-logo.svg" alt="Distrikt" width="450">
-		</a>
-	</p>
-	<h3 align="center">Keep school under your control.</h3>
-	<br>
-  <div align="center">
-  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt='Distrikt na Google Play' height="80px">
-  <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.png" alt="Distrikt na F-Droid" height="80">
-  </div>
-	<br>
+    <br>
+    <br>
+    <p align="center">
+        <a href="https://distriktapp.cz">
+            <img src="https://github.com/distriktteam/assets/blob/master/logo/distrikt-logo.svg" alt="Distrikt"
+                width="450">
+        </a>
+    </p>
+    <h3 align="center">Keep school under your control.</h3>
+    <br>
+    <div align="center">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+            alt='Distrikt on Google Play' height="80px">
+        <img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.png" 
+            alt="Distrikt on F-Droid" height="80">
+    </div>
+    <br>
 </div>
 
 <div align="right">
-	<h1>
-    For students,<br>
-    by students.
-  </h1>
-  <p>
-    We know how annoying it is, <br>having to wait for a new and better Bakaláři app, <br>so we took matters into our own hands.
-  </p>
+    <h1>
+        For students,<br>
+        by students.
+    </h1>
+    <p>
+        We know how annoying it is, <br>having to wait for a new and better Bakaláři app, <br>so we took matters into
+        our own hands.
+    </p>
 </div>
 
-<div width="150">
-	<h1>
-    Distrikt is yours.
-  </h1>
-  <p>
-    Distrikt is fully community powered, <br>so if you've got any new ideas that we could implement, <br>let us know on our official Discord server!
-  </p>
-  <a href="https://discord.gg/sSa7bX5">
+<div align="left">
+    <h1>
+        Distrikt is yours.
+    </h1>
+    <p>
+        Distrikt is fully community powered, <br>so if you've got any new ideas that we could implement, <br>let us know
+        on our official Discord server!
+    </p>
+    <a href="https://discord.gg/sSa7bX5">Join us on Discord!</a>
 </div>
+
+## Documentation
+* Distrikt is still under construction. Check back later for detailed documentation on how Distrikt works.
 
 ## CLI Commands
 *   `npm install`: Installs dependencies

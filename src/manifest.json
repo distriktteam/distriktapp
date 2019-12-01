@@ -1,7 +1,7 @@
 {
   "name": "Distrikt",
   "short_name": "Distrikt",
-  "start_url": "/",
+  "start_url": "/client",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",

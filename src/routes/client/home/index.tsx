@@ -2,9 +2,9 @@ import { Fragment, h } from "preact";
 import { useEffect, useState } from "preact/hooks";
 import * as style from "./style.css";
 
-import { DateSortedGrades } from '../../components/client/Grades';
-import UpcomingClass from '../../components/client/UpcomingClass';
-import Warning from '../../components/client/Warning';
+import { DateSortedGrades } from '../../../components/client/Grades';
+import UpcomingClass from '../../../components/client/UpcomingClass';
+import Warning from '../../../components/client/Warning';
 
 interface Props {}
 const Home: preact.FunctionalComponent<Props> = props => {

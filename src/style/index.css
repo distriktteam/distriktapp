@@ -22,7 +22,7 @@ html, body {
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility !important;
 	-webkit-tap-highlight-color: transparent;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #app {

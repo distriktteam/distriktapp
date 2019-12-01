@@ -6,7 +6,7 @@ const ProfileLogin: preact.FunctionalComponent = () => {
         <div class={style.login}>
             <div class={style.loginBox}>
                 <form autocomplete="on">
-                    <img width={150} src="/assets/logo.svg" /><br /><br />
+                    <img width={250} src="/assets/logo.svg" /><br /><br />
                     <span>Přihlašte se pomocí účtu Bakaláři</span>
                     <input type="username" placeholder="Přihlašovací jméno" />
                     <input type="password" placeholder="Heslo" />

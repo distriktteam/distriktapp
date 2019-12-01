@@ -1,8 +1,6 @@
 
 <div align="center">
 	<br>
-	<br>
-	<br>
 	<p align="center">
 		<a href="https://distriktapp.cz">
 		  <img src="https://github.com/distriktteam/assets/blob/master/logo/distrikt-dark.svg" alt="Distrikt" width="400">

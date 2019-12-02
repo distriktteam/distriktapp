@@ -84,7 +84,7 @@ const Home: preact.FunctionalComponent = () => {
                     </div>
                 </section>
                 <footer>
-                    <img src=""/>
+                    <img src="/assets/logo.svg" width={150}/>
                     <div class={style.links}>
                         <div class={style.linkbox}>
                             <h5>Aplikace</h5>

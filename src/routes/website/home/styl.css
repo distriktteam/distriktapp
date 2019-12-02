@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     font-family: "SF Pro Display", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -39,7 +40,7 @@ header .sideimage {
     header .sideimage {
         background-size: cover;
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
 }
 
@@ -48,6 +49,10 @@ header .sideimage {
         height: calc(100vh - 300px);
         display: flex;
         align-items: center;
+    }
+
+    body {
+        padding: 40px 30px;
     }
 
     .afterheaderpadding {
@@ -60,6 +65,10 @@ header .sideimage {
         width: 400px;
     }
 
+    header {
+        padding: 0 40px;
+    }
+
     header .sideimage {
         /* Určitě existuje lepší způsob */
         flex: 1 1 0px;
@@ -67,7 +76,7 @@ header .sideimage {
         height: 100%;
         background-size: contain;
     }
-  }
+}
 
 /* Styly nadpisů */
 h1 {
@@ -82,8 +91,7 @@ p {
 
 img {
     pointer-events: none;
-  }
-
+}
 
 /* Tlačítka */
 
@@ -103,55 +111,88 @@ img {
 
 .colored {
     color: white;
-    background: #2D96FF;
+    background: #2d96ff;
     border-radius: 7px;
     padding: 15px;
-    transition: .3s;
-    box-shadow: 0 4px 14px 0 rgba(0,118,255,0.39);
+    transition: 0.3s;
+    box-shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.39);
 }
 
 .colored:active {
-    transition: .3s;
-    transform: scale(.95);
+    transition: 0.3s;
+    transform: scale(0.95);
     background: rgb(28, 98, 168);
 }
 
 .disabled {
-    opacity: .5;
-    background: #ECECEC;
+    opacity: 0.5;
+    background: #ececec;
     border-radius: 7px;
     padding: 15px;
-    transition: .3s;
+    transition: 0.3s;
     box-shadow: 0 4px 14px 0 rgba(112, 112, 112, 0.39);
     cursor: not-allowed;
 }
 
 footer {
+    display: flex;
+    padding: 40px 0px;
+}
 
+footer > img {
+    flex: 0 0 auto;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .links {
+        width: 100%;
+    }
+}
+
+footer .links {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 @media (prefers-color-scheme: dark) {
-    
-    h1 {color: #FAFAFA;}
-    .button a {color: #FAFAFA;}
+    h1 {
+        color: #fafafa;
+    }
+    .button a {
+        color: #fafafa;
+    }
 
     .logo {
         filter: grayscale(1) invert(1);
-
     }
 
-    .sideimage {background-image: url(/assets/homepage/screenshots-dark.svg)};
+    .sideimage {
+        background-image: url(/assets/homepage/screenshots-dark.svg);
+    }
 
     .disabled {
-        opacity: .5;
-        background: #ECECEC;
+        opacity: 0.5;
+        background: #ececec;
         border-radius: 7px;
         padding: 15px;
-        transition: .3s;
+        transition: 0.3s;
         box-shadow: 0 4px 14px 0 rgba(255, 255, 255, 0.39);
         cursor: not-allowed;
     }
-  }
+}
 
 nav .menu a {
     display: inline-block;

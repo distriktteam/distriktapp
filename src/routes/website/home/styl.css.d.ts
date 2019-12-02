@@ -7,4 +7,5 @@ export const infobox: string;
 export const button: string;
 export const colored: string;
 export const disabled: string;
+export const links: string;
 export const menu: string;
